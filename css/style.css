@@ -1,0 +1,15 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --main-color: #f0932b ;
+  --bg-color:#0f054d;
+  --hover-color: #0d6893;
+  --heading-color:  #1b2f45;
+  --wh-color: #fff;
+  --btn-color: #56b8e6;
+  --main-transition: .5s;
+}
