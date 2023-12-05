@@ -5,7 +5,6 @@
 }
 
 :root{
-  --main-color: #f0932b ;
   --bg-color:#0f054d;
   --hover-color: #0d6893;
   --heading-color:  #1b2f45;
@@ -13,3 +12,36 @@
   --btn-color: #56b8e6;
   --main-transition: .5s;
 }
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------ */
+/* navbar */
+nav .navbar-nav .nav-item .nav-link{
+  color: var(--wh-color);
+}
+
+nav .navbar-nav .nav-item .nav-link.active,
+nav .navbar-nav .nav-item .nav-link:hover{
+  transition: var(--main-transition);
+  color: var(--hover-color);
+}
+
+.navbar .navbar-toggler{
+  color: var(--wh-color);
+  border-color: var(--wh-color);
+}
+
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.navbar .navbar-toggler i{
+  color: var(--wh-color);
+}
+
+
+
+
