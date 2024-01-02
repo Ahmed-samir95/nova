@@ -19,6 +19,10 @@
   background-color: var(--btn-color);
 }
 
+a{
+  text-decoration: none;
+}
+
 /* ------------------------------------------------------------------------------------------------------ */
 /* navbar */
 nav .navbar-nav .nav-item .nav-link{
@@ -123,12 +127,38 @@ nav .navbar-nav .nav-item .nav-link:hover{
     background-color: var(--btn-color);
     border: none;
 }
+/* --------------------------------------------------------------------------------------------- */
+/* blog */
+.blog .blog-item{
+  cursor: pointer;
+}
 
+.blog .blog-item h4{
+  margin-top: 10px;
+   font-size: 15px;
+   font-weight: normal;
+   color: var(--btn-color);
+}
 
+.blog .blog-item span{
+   color: #000;
+}
 
+.blog .blog-item:hover img{
+  transform: scale(1.1);
+  transition: var(--main-transition);
 
+}
 
+.blog .blog-item:hover h2{
+    color: var(--btn-color);
+    transition: var(--main-transition);
+}
 
+.blog .blog-item a{
+  color: var(--btn-color);
+  font-size: 20px;
+}
 
 
 
