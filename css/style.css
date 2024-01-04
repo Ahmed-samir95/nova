@@ -10,6 +10,7 @@
   --heading-color:  #1b2f45;
   --wh-color: #F7F9FC;
   --btn-color: #56b8e6;
+  --footer-color: #F7F9FC;
   --main-transition: .5s;
 }
 
@@ -159,6 +160,39 @@ nav .navbar-nav .nav-item .nav-link:hover{
   color: var(--btn-color);
   font-size: 20px;
 }
+/* -------------------------------------------------------------------------------------- */
+/* footer */
+footer{
+  background-color: var(--footer-color);
+}
+
+footer h2,
+footer h4{
+  color: var(--heading-color);
+}
+
+ footer .social svg{
+    font-size: 20px;
+     color: var(--heading-color);
+     cursor: pointer;
+     transition: var(--main-transition);
+ }
+
+ footer .social svg:hover{
+  color: var(--hover-color);
+ }
+
+footer a{
+  padding-top: 10px;
+  color: var(--bg-color);
+  transition: var(--main-transition);
+}
+
+footer a:hover{
+  color: var(--btn-color);
+}
+
+
 
 
 
