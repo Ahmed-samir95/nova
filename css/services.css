@@ -59,3 +59,38 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .services-landing .info span{
   color: var(--btn-color);
 }
+/* ------------------------------------------------------------------------------------------- */
+/* testimonials */
+.testimonials .star i{
+  color: goldenrod;
+}
+
+.testimonials img{
+  width: 150px;
+}
+
+.testimonials .testimonials-item{
+  box-shadow: 0px 2px 15px rgb(18 66 101 / 8%);
+  cursor: pointer;
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: var(--main-transition);
+}
+
+.testimonials .testimonials-item:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
