@@ -53,3 +53,50 @@ nav .navbar-nav .nav-item .nav-link:hover{
 .portfolio-landing .info span{
   color: var(--btn-color);
 }
+/* ---------------------------------------------------------------------------------------------- */
+/* portfolio-content */
+.portfolio-content .shuffle li{
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: var(--main-transition);
+}
+
+.portfolio-content .shuffle li.active,
+.portfolio-content .shuffle li:hover{
+   color: var(--btn-color);
+}
+
+.portfolio-content .portfolio-item{
+  margin-top: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.portfolio-content .portfolio-item img{
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portfolio-content .portfolio-item .caption{
+  position: absolute;
+  left: 12px;
+  padding: 10px;
+  background-color: var(--bg-color);
+  width: 93.5%;
+  transition: var(--main-transition);
+  bottom: -100%;
+}
+
+.portfolio-content .portfolio-item .caption .caption-title{
+  color: var(--wh-color);
+  font-size: 23px;
+}
+
+.portfolio-content .portfolio-item:hover .caption{
+  bottom: 0;
+}
+
+
+
+
