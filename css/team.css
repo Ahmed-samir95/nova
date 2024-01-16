@@ -60,3 +60,26 @@ nav .navbar-nav .nav-item .nav-link:hover{
   color: var(--btn-color);
 }
 /* ------------------------------------------------------------------------------------------- */
+/* team-content */
+.team-content .team-item{
+  cursor: pointer;
+}
+
+.team-content .team-item h2{
+  transition: var(--main-transition);
+}
+
+.team-content .team-item:hover h2{
+   color: var(--hover-color);
+}
+
+
+
+
+
+
+
+
+
+
+
