@@ -141,3 +141,17 @@ footer a:hover{
 }
 
 
+/* ------------------------------------------------------------------------------------ */
+/* btn to up */
+.btn-up{
+  background-color: var(--bg-color);
+  color: var(--wh-color);
+  border: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+   display: none;
+}
