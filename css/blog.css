@@ -84,9 +84,29 @@ nav .navbar-nav .nav-item .nav-link:hover{
   color: var(--btn-color);
 }
 
+.blog-content .sub-2-item input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
 
+.blog-content .sub-2-item button{
+  position: absolute;
+  left: 200;
+  padding: 10px 15px;
+  background-color: var(--btn-color);
+  color: var(--wh-color);
+  border: 1px solid var(--btn-color);
+  transition: var(--main-transition);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+}
 
-
+.blog-content .sub-2-item button:hover{
+  background-color: var(--hover-color);
+}
 
 
 
