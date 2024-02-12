@@ -76,6 +76,38 @@ nav .navbar-nav .nav-item .nav-link:hover{
   display: block;
   margin: auto;
 }
+/* -------------------------------------------------------------------------------- */
+/* footer */
+footer{
+  background-color: var(--footer-color);
+}
+
+footer h2,
+footer h4{
+  color: var(--heading-color);
+}
+
+footer .social i{
+    font-size: 20px;
+     color: var(--heading-color);
+     cursor: pointer;
+     transition: var(--main-transition);
+ }
+
+footer .social i:hover{
+  color: var(--hover-color);
+ }
+
+footer a{
+  padding-top: 10px;
+  color: var(--bg-color);
+  transition: var(--main-transition);
+}
+
+footer a:hover{
+  color: var(--btn-color);
+}
+
 
 
 
