@@ -122,14 +122,23 @@ nav .navbar-nav .nav-item .nav-link:hover{
 /* --------------------------------------------------------------------------------------------- */
 /* blog */
 .blog .blog-item{
+  overflow: hidden;
   cursor: pointer;
 }
 
 .blog .blog-item h4{
   margin-top: 10px;
-   font-size: 15px;
-   font-weight: normal;
-   color: var(--btn-color);
+  font-size: 15px;
+  font-weight: normal;
+  color: var(--btn-color);
+}
+
+ .blog .blog-item p{
+  height: 100px;
+}
+
+.blog .blog-item:nth-child(3) p{
+  height: 135px;
 }
 
 .blog .blog-item span{
@@ -162,16 +171,19 @@ footer h4{
   color: var(--heading-color);
 }
 
- footer .social svg{
+ footer .social i{
     font-size: 20px;
      color: var(--heading-color);
      cursor: pointer;
      transition: var(--main-transition);
  }
 
- footer .social svg:hover{
+
+ footer .social i:hover{
   color: var(--hover-color);
  }
+
+
 
 footer a{
   padding-top: 10px;
