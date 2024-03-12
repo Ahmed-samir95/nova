@@ -133,12 +133,13 @@ nav .navbar-nav .nav-item .nav-link:hover{
   color: var(--btn-color);
 }
 
- .blog .blog-item p{
-  height: 100px;
+.blog .blog-item h2{
+  margin-bottom: 10px;
+  font-size: 20px;
 }
 
-.blog .blog-item:nth-child(3) p{
-  height: 135px;
+ .blog .blog-item p{
+  height: 100px;
 }
 
 .blog .blog-item span{
