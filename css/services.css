@@ -61,6 +61,10 @@ nav .navbar-nav .nav-item .nav-link:hover{
 }
 /* ------------------------------------------------------------------------------------------- */
 /* testimonials */
+.testimonials{
+  overflow: hidden;
+
+}
 .testimonials .star i{
   color: goldenrod;
 }
